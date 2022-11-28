@@ -1,0 +1,79 @@
+body{
+    display: block;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    height: 600px;
+    left: 5px;
+    font-size: 70px;
+
+}
+.header{
+    height: 600px;
+    width: 100%;
+   background-size: 300px;
+    background-repeat: no-repeat;
+    
+    padding-top: 50px;
+    font-size: 70px;
+    color:maroon;
+    text-shadow:maroon;
+}
+.btn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+button{
+    color: maroon;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background-image: linear-gradient(pink);
+    border-radius: 20px;
+}
+#data{
+    width: 99%;
+    height: 450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+}
+.table{
+    width: 800px;
+}
+table{
+    color: maroon;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 900;
+    font-size: 25px;
+}
+table tr :hover {
+    background-color: orangered;
+    font-size: 35px;
+    
+}
+img{
+    clip-path: circle();
+    background-color: orangered;
+}
+.welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.float-right{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkgrey;
+    
+    margin-bottom: 10px;
+    font-size: 25px;
+}

@@ -1,0 +1,30 @@
+*{
+    background-image: url("flower.jpg");
+    background-repeat: repeat;
+    color:maroon;
+    font-size: 30px;
+    
+}
+table{
+    margin-top:  60 px;
+    text-align: center;
+    background: maroon;
+    color: maroon;
+    font-size: 25px;
+    padding: 5px;
+    
+}
+
+#show th, #show td{
+    padding: 33px;
+    color:maroon;
+    font-size:35px;
+
+}
+#btna td input{
+    width: 100%;
+    
+    color: maroon;
+    font-size:25px;
+    
+}

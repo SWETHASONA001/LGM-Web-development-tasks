@@ -1,0 +1,141 @@
+h1{
+    color:palevioletred;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 524px;
+    margin-left: 520px;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    font-family: cursive;
+    color: palevioletred;
+}
+section{
+    margin: 84px;
+    align-items: center;
+    color: palevioletred;
+}
+.wrapper
+{
+    width:500px;
+    color: palevioletred;
+}
+
+.input-container
+{
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    width: 10%;
+    margin-right:20px;
+    margin-left: 10px;
+    align-items: center;
+    color: palevioletred;
+
+}
+input,button{
+     border: none;
+     outline: none;
+     color: palevioletred;
+
+}
+.input-container input{
+    padding: 18px 15px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family:cursive ;
+    width:320px;
+    color: palevioletred;
+
+}
+.input-container button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    padding:16px 25px ;
+    font-size: 16px;
+    font-family: cursive;
+    color: palevioletred;
+    background-color: pink;
+    border-left: 2px solid #eee;
+
+}
+.input-container button:hover {
+
+    color: pink;
+    background-color: palevioletred;
+    
+
+}
+.todo-container{
+    padding: 0; 
+    color: palevioletred;
+
+
+
+}
+.todo-container .todo{
+    margin: 0 auto;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 5px;
+    color: palevioletred;
+
+}
+.todo-container .todo.completed{
+    width:90%;
+    text-decoration: line-through; 
+    color:pink;
+    opacity: 0.7;
+}
+.todo-container button{
+    padding:16px;
+    flex:1;
+    margin:0;
+    color: palevioletred;
+
+}
+.todo-container .todo-check{
+    color: palevioletred;
+    background: pink;
+    border-left: 2px solid #eee;
+    font-size : 16px;
+    
+}
+.todo-container .todo-check:hover{
+    color:pink;
+    background: #fff;
+    cursor: pointer;
+}
+.todo-container  .todo-delete{
+    color:pink;
+    background: #fff;
+    font-size: 16px;
+    border-left: 2px solid #eee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.todo-container  .todo-delete:hover{
+    color:#fff;
+    background: pink;
+    cursor:pointer;
+
+}
+.todo-container .todo li{
+    flex : 10;
+    padding:16 px;
+    list-style-type: none;
+    margin: 0;
+    line-height: 1.5;
+    color:palevioletred;
+
+}
+
